@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ /* CSS for the navbar container */
+ nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  /* CSS for the navbar logo */
+  .navbar-logo {
+   width: 60px;
+   height: 60px;
+  }
+
+  /* CSS for the navbar links */
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  /* CSS for the navbar links - individual link style */
+  .navbar-links a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+
+  /* CSS for the active link */
+  .navbar-links a.active {
+    background-color: #4CAF50;
+  color: white;
+  height: 100%;
+  }
+
+  /* CSS para el titulo */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .primera-imagen {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* CSS para el primer Div */
+  .primer-div {
+    background-color: #3CC8CD;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 1em;
+  }
+
+  p {
+    text-align: right;
+    margin: 0;
+  }
+
+
+  /* CSS para el segundo Div */
+  .segundo-div {
+    background-color: #E93647;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+   
+  }
+
+
+  h2{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+/* CSS para las imagenes del H2 */
+  .img-h2 {
+    height: 250px;
+    width: 250px;
+
+  }
+
+
+  /* CSS para cada img + P */
+  .imgp {
+    margin: 5px 20px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+
+
+  /* CSS para el ultimo Div del Home Page */
+  .faqdiv {
+    background-color: #FCF300;
+    padding-bottom: 50px
+    margin-top: 40px;
+  }
+
+
+  /* CSS para el Div que contiene las preguntas */
+  .divpreguntas {
+    background-color: blanchedalmond;
+    align-self: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+
+  /* CSS para las preguntas */
+  .preguntas123 {
+    background-color: dimgrey;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+/* CSS for the footer */
+footer {
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* CSS for the left image */
+  footer img {
+    max-height: 30px;
+  }
+
+  /* CSS for the center text */
+  .center-text {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  /* CSS for the right text */
+  .right-text {
+    text-align: right;
+  }
+
+  /* CSS para el Div de Noticias */
+  .div-noticias {
+    background-color: #E93647;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 636px;
+  }
+
+  /* CSS para el body de Noticias y las otras paginas */
+  .body-noticias {
+    background-color: #E93647;
+  }
+
+  /* CSS for the contact form container */
+  .contact-form {
+    background-color: #3CC8CD;
+    padding: 30px;
+    max-width: 400px;
+    margin: 191px auto;
+    border-radius: 10px;
+    
+  }
+
+  /* CSS for form inputs */
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  /* CSS for form submit button */
+  .contact-form input[type="submit"] {
+    background-color: #fff;
+    color: #3CC8CD;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /* CSS for form submit button hover effect */
+  .contact-form input[type="submit"]:hover {
+    background-color: blanchedalmond;
+  }
+
+   /* CSS for the store list container */
+   .store-list {
+    background-color: blanchedalmond;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+  /* CSS for store list items */
+  .store-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  /* CSS for store list item links */
+  .store-list li a {
+    color: #333;
+    text-decoration: none;
+  }
