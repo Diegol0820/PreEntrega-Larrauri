@@ -1,0 +1,37 @@
+/* CSS for the contact form container */
+
+.contact-form {
+    background-color: #3CC8CD;
+    padding: 30px;
+    max-width: 400px;
+    margin: 191px auto;
+    border-radius: 10px;
+  
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+  
+    input[type="submit"] {
+      background-color: #fff;
+      color: #3CC8CD;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+  
+      &:hover {
+        background-color: blanchedalmond;
+      }
+    }
+  }
+  
+  /* CSS for form inputs */
+  
+  /* CSS for form submit button */
+  
+  /* CSS for form submit button hover effect */
+  
