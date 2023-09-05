@@ -1,43 +1,39 @@
 
-  
-  /* CSS for the navbar container */
-  
-  nav {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  /* CSS for the navbar logo */
-  
-  .navbar-logo {
-    width: 60px;
-    height: 60px;
-  }
-  
-  /* CSS for the navbar links */
-  
-  .navbar-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-  
-    a {
-      color: #f2f2f2;
-      text-decoration: none;
-      padding: 14px 16px;
-  
-      &.active {
-        background-color: #4CAF50;
-        color: white;
-        height: 100%;
-      }
+
+
+/* CSS for the navbar container */
+nav {
+  background-color: $navbar-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* CSS for the navbar logo */
+.navbar-logo {
+  width: 60px;
+  height: 60px;
+}
+
+/* CSS for the navbar links */
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+  a {
+    color: $navbar-link-color;
+    text-decoration: none;
+    padding: $navbar-link-padding;
+
+    &.active {
+      background-color: $navbar-active-bg-color;
+      color: $navbar-active-color;
+      height: 100%;
     }
   }
-  
-  /* CSS for the navbar links - individual link style */
-  
-  /* CSS for the active link */
-  
+}
+
+/* CSS for the navbar links - individual link style */
+/* CSS for the active link */
